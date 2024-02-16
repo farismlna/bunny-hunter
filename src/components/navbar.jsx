@@ -27,7 +27,8 @@ export const NavigationBar = () => {
                 </div>
             </div>
         </nav> */}
-        <header>
+        <div id="blurryscroll" aria-hidden="true"></div>
+        <header class="fixed-top">
             <nav>
             <a href="#history">History</a>
             <a href="#type">Type</a>
