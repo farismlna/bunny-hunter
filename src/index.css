@@ -67,19 +67,66 @@ button:focus-visible {
   }
 } */
 
-header {
-  color: #fff;
+* {
+  text-decoration: none;
+}
+
+/* .wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
 }
 
 nav {
+  width: 100%;
+  margin: auto;
   display: flex;
+  line-height: 80px;
   justify-content: space-around;
-  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   transition: background-color 0.3s ease;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  font-size: 18px;
+} */
+
+header {
+  color: #fff;
+} 
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .navbar.blur {
-  backdrop-filter: blur(8px); /* Menambahkan efek blur saat class blur ditambahkan */
+  backdrop-filter: blur(8px); /* Menambahkan efek blur saat class blur ditambahkan*/
 }
 
 nav a {
@@ -89,9 +136,6 @@ nav a {
   font-size: 18px;
 }
 
-/* nav a:hover {
-  background-color: #444;
-} */
 
 .row {
   display: flex;
@@ -119,8 +163,9 @@ p {
   display: flex;
 }
 
-.card{
+.card-type {
   margin: 0 .5em ;
+  height: max-content;
 }
 
 .crsl {
