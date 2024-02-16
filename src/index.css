@@ -114,3 +114,48 @@ img {
 p {
   text-align: center;
 } */
+
+.cards-wrapper{
+  display: flex;
+}
+
+.card{
+  margin: 0 .5em ;
+}
+
+.crsl {
+  padding-top: 30px;
+}
+
+.carousel .slider-wrapper{
+  width: 50%;
+}
+
+.carousel .thumbs {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel .overlay {
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8.4rem 1.5rem;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.carousel .overlay__title {
+  margin: 0.8rem 0 1rem 0;
+}
