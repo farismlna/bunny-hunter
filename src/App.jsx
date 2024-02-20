@@ -200,7 +200,7 @@ export default function App() {
         {/* Type Page */}
         <section id="type" style={{backgroundColor: '#E3E1D9', padding: '40px'}}>
           <div className="" style={{ width: "100%" }}>
-            <div id="carouselExample" className="carousel slide hidden">
+            <div id="carouselExample" className="carousel slide">
               <div className="carousel-inner">
                 <h1 className="d-flex justify-content-center pb-3 fw-bold fst-italic">
                   Type
@@ -223,22 +223,22 @@ export default function App() {
                           Read More
                         </button>
 
-                        <div class="modal fade" id="anggoraRabbit" tabindex="-1" aria-labelledby="anggoraRabbitLabel" aria-hidden="true">
-                          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="anggoraRabbitLabel">Anggora Rabbit (Ornamental)</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                Kelinci Anggora is one of the most often recognised types of hias kelinci. This kelinci originates from Ankara, Turkey. There are four types of anggora that are classified as follows: Anggora Inggris, Anggora Perancis, Anggora Giant, and Anggora Jerman. In general, this kelinci has a soft and flexible bulu. This weight ranges from 2 to 4 kg. Every month, anggora's bulb can grow by about 2 cm. In addition to being used as a kelinci hias, this type of bulu is often used as a wol. One of the advantages of this type of kelinci is that it can be used to make wool. However, the above-mentioned kelinci kind needs to be taken into consideration because it is not from a tropical region, making illness transmission easier.
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              </div>
+                        <div className="modal fade" id="anggoraRabbit" tabIndex="-1" aria-labelledby="anggoraRabbitLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-centered">
+                          <div className="modal-content">
+                            <div className="modal-header">
+                              <h5 className="modal-title" id="anggoraRabbitLabel">Anggora Rabbit (Ornamental)</h5>
+                              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body">
+                              Kelinci Anggora is one of the most often recognised types of hias kelinci. This kelinci originates from Ankara, Turkey. There are four types of anggora that are classified as follows: Anggora Inggris, Anggora Perancis, Anggora Giant, and Anggora Jerman. In general, this kelinci has a soft and flexible bulu. This weight ranges from 2 to 4 kg. Every month, anggora's bulb can grow by about 2 cm. In addition to being used as a kelinci hias, this type of bulu is often used as a wol. One of the advantages of this type of kelinci is that it can be used to make wool. However, the above-mentioned kelinci kind needs to be taken into consideration because it is not from a tropical region, making illness transmission easier.
+                            </div>
+                            <div className="modal-footer">
+                              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             </div>
                           </div>
                         </div>
+                      </div>
                       </div>
                     </div>
                     <div class="card" style={{ width: "20rem" }}>
